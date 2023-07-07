@@ -24,17 +24,17 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -91,22 +91,6 @@
       ],
       "async": false
     },
-    "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/client/components/render-from-template-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
     "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
@@ -117,6 +101,22 @@
     },
     "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
         "app-client-internals:static/chunks/app-client-internals.js"
@@ -141,9 +141,9 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/peter/Coding/Spotify-clone/app/(site)/page": [],
     "/Users/peter/Coding/Spotify-clone/app/layout": [
       "static/css/app/layout.css"
-    ]
+    ],
+    "/Users/peter/Coding/Spotify-clone/app/(site)/page": []
   }
 }
