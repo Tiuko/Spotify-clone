@@ -141,9 +141,9 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/peter/Coding/Spotify-clone/app/(site)/page": [],
     "/Users/peter/Coding/Spotify-clone/app/layout": [
       "static/css/app/layout.css"
-    ],
-    "/Users/peter/Coding/Spotify-clone/app/(site)/page": []
+    ]
   }
 }
