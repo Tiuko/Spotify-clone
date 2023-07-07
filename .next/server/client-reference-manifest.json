@@ -24,6 +24,14 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
@@ -32,9 +40,25 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+    "(app-client)/./components/SideBar.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "id": "(sc_client)/./components/SideBar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Header.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Header.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/ListItem.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/ListItem.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -91,22 +115,6 @@
       ],
       "async": false
     },
-    "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
     "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
@@ -123,8 +131,32 @@
       ],
       "async": false
     },
+    "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/peter/Coding/Spotify-clone/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
     "/Users/peter/Coding/Spotify-clone/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Figtree\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}": {
       "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Figtree\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/peter/Coding/Spotify-clone/components/SideBar.tsx": {
+      "id": "(app-client)/./components/SideBar.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -136,6 +168,22 @@
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/peter/Coding/Spotify-clone/components/Header.tsx": {
+      "id": "(app-client)/./components/Header.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(site)/page:static/chunks/app/(site)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/peter/Coding/Spotify-clone/components/ListItem.tsx": {
+      "id": "(app-client)/./components/ListItem.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(site)/page:static/chunks/app/(site)/page.js"
       ],
       "async": false
     }
